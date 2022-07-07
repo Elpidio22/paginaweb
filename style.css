@@ -1,0 +1,60 @@
+.header{
+    background-color: black;
+    height: 300px;
+}
+.logo{
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 250px;
+    height: 250px;
+}
+.header h1{
+    text-transform:uppercase;
+    font-size: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color:gray;
+    text-align: center;
+    float:right;
+    padding-right: 50px;
+    margin-top: 15px;
+}
+.grid{
+    display: grid;
+    padding-top: 5px;
+    width: 300px;
+    height: 600px;
+    background-color: gray;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr;
+    column-gap:80ex;
+}
+p{
+    font-size:medium;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: white;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista{
+    padding:15px;
+    background-color: rgb(46, 44, 44);
+    padding-left: 10px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+}
+.foto{
+    width: 800px;
+    height: 600px;
+}
+.t{
+    text-transform: capitalize;
+    margin-left:80ex;
+    padding-left: 10px;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:gray;
+}
